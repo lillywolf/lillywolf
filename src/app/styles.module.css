@@ -1,0 +1,27 @@
+.page {
+  @apply w-full h-[100vh];
+}
+
+.header {
+  @apply w-full;
+  @apply fixed bottom-[clamp(0px,200px,10vh)] top-[clamp(100px,200px,40vh)];
+  @apply text-center;
+  @apply text-base;
+  @apply md:text-lg;
+}
+
+.site {
+  @apply text-xl;
+}
+
+.hello {
+  @apply mx-auto mt-4;
+}
+
+.footer {
+  @apply w-full;
+  @apply fixed;
+  @apply bottom-4;
+  @apply text-center;
+  @apply text-sm;
+}
